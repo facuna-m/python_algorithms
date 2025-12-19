@@ -1,3 +1,6 @@
+# Objetivo: Buscar en lista ORDENADA dividiendo el problema a la mitad.
+# Complejidad: O(log n) - Muy eficiente.
+
 def binary_search(nums, target):
     left = 0
     right = len(nums) - 1

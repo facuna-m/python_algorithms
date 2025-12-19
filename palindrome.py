@@ -1,3 +1,5 @@
+# Objetivo: Verificar si se lee igual al revés, ignorando espacios/signos.
+
 def is_palindrome(string):
     string_lower = string.lower()
     clear_string = ""
@@ -14,6 +16,8 @@ print(is_palindrome("Anita lava la tina"))
 print(is_palindrome("Hola Mundo"))
 print(is_palindrome("Ana"))
 
+
+# Versión avanzada
 def is_palindrome_pro(string):
     clean = "".join([char.lower() for char in string if char.isalnum()])
     return clean == clean[::-1]

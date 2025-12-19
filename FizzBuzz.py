@@ -1,3 +1,5 @@
+# Objetivo: Imprimir Fizz (div 3), Buzz (div 5) o FizzBuzz (ambos).
+
 def fizz_buzz(n):
     my_list = []
     for i in range(1, n+1):
@@ -15,6 +17,8 @@ def fizz_buzz(n):
 
 fizz_buzz(15)
 
+
+# Versión Optimizada en espacio (sin lista intermedia)
 def fizz_buzz_optimized(n):
     for num in range(1, n+1):
         if num % 3 == 0 and num % 5 == 0:

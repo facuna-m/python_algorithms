@@ -1,3 +1,5 @@
+# Objetivo: Verificar si dos palabras son anagramas (tienen exactamente las mismas letras y cantidades).
+
 # Reutilización de frequency_counter.py
 def frequency_counter(string):
     frequency = {}

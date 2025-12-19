@@ -1,3 +1,5 @@
+# Objetivo: Validar que los paréntesis cierren en el orden correcto (LIFO).
+
 def is_valid(s):
     stack = []
     #Mapa de cierres: la clave es el cierre

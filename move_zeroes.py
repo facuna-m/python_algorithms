@@ -1,3 +1,5 @@
+# Objetivo: Mover ceros al final sin crear una lista nueva.
+
 def move_zeroes(nums):
     pos = 0
     

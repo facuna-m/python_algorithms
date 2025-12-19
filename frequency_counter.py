@@ -1,3 +1,5 @@
+# Objetivo: Contar cuántas veces aparece cada caracter.
+
 def frequency_counter(string):
     frequency = {}
     for char in string:

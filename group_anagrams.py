@@ -1,3 +1,5 @@
+# Objetivo: Agrupar palabras que tienen las mismas letras.
+
 def group_anagrams(words):
     groups = {}
     for word in words:

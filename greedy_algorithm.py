@@ -1,3 +1,6 @@
+# Objetivo: Comprar barato y vender caro en una sola pasada.
+# Complejidad: O(n)
+
 def max_profit(prices):
     min_price = float('inf') #cualquier numero es menor que infinito
     max_profit = 0
